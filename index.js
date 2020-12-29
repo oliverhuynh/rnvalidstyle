@@ -14,7 +14,6 @@ let validrnstyle = async function (opts) {
     }
     else {
         let fs = require('fs');
-        console.log(opts['_'][0]);
         let content = fs.readFileSync(opts['_'][0], 'utf8');
         let json = JSON.parse(content);
         Object.keys(json).forEach((key) => {
