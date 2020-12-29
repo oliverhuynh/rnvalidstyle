@@ -16,8 +16,8 @@ validrnstyle stylesheet.json | setclip
 
 # How it works
 
-- It valid property via https://github.com/vhpoet/react-native-styling-cheat-sheet 
-- And parsing output
+- It valids property via https://github.com/vhpoet/react-native-styling-cheat-sheet 
+- And print output with invalid styles removed.
 
 # Steps
 - [x] Framework with CLI with example output
